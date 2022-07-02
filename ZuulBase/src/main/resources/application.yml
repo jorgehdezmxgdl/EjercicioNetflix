@@ -20,5 +20,5 @@ zuul:
   routes:
     ordenes-service: # Service to create as sample
       path: /ordenes/** #path that will be intercepted
-      serviceId: ordenes-service
+      serviceId: ordenes-service #host: localhost:9000
       stripPrefix: true  #if zuul should replace the "/sample/" segment
